@@ -65,8 +65,11 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 ### d) tiedoston luonti
 
 <img width="315" height="157" alt="kuva" src="https://github.com/user-attachments/assets/7b2497c9-aeaa-4d9c-b688-1b4ab69d02b3" />
+
 */roles/file/tasks/main.yml*
+
 *| = mahdollistaa useamman rivin kirjoittamisen tiedostoon (kokeilin ilman ja lopputuloksena kaikki teksti oli samalla rivillä)*
+
 *0600 = - rw- --- --- (jaoteltu selkeyden vuoksi) = omistajalla luku- (r/4) ja kirjoitus- (w/2) oikeudet, ryhmällä ja muilla ei mitään*
 
 <img width="310" height="105" alt="kuva" src="https://github.com/user-attachments/assets/72dc0987-219e-430f-a62c-dbc92cec8490" />
