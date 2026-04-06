@@ -50,13 +50,13 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 
 ### c)
 
-<img width="168" height="116" alt="kuva" src="https://github.com/user-attachments/assets/96c82798-2ed4-439a-b20c-ef2596daa35b" />
-
-
-
 <img width="278" height="141" alt="kuva" src="https://github.com/user-attachments/assets/1ea4af7e-eed0-4618-a0e3-53c4287b145d" />
 
-*roles/package/tasks/main.yml*
+*roles/package/tasks/main.yml asetettu asentamaan 3 pakettia*
+
+<img width="168" height="116" alt="kuva" src="https://github.com/user-attachments/assets/96c82798-2ed4-439a-b20c-ef2596daa35b" />
+
+*roolin suoritus lisätty site.yml*
 
 <img width="289" height="216" alt="kuva" src="https://github.com/user-attachments/assets/c95989d3-3dc9-4079-b872-0f4d98a7707e" />
 
