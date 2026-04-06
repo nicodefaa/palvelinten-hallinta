@@ -19,3 +19,5 @@ ALL = kaikki koneet
 NOPASSWD = ei kysy salasanaa
 
 ALL = saa suorittaa kaikkia komentoja
+
+---
