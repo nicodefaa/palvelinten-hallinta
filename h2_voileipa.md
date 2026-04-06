@@ -1,6 +1,6 @@
 # h2 Voileipä
 
-## Salasanattoman sudo-käyttäjän luonti
+## Salasanattoman sudo-käyttäjän luonti (manuaalisesti)
 
 - Luodaan uusi käyttäjä komenolla: *sudo adduser antero*
 - Luodaan uusi ryhmä komennolla: *sudo groupadd sudoless*
@@ -40,10 +40,13 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 
 <img width="632" height="221" alt="kuva" src="https://github.com/user-attachments/assets/d0ad6bb3-d6d1-47dc-9cba-f84915a5cc63" />
 
-*Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvasta koska olen vainoharhainen* 😅
+*Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvasta koska foliohattu* 😅
 
 ### b)
 
 <img width="430" height="142" alt="kuva" src="https://github.com/user-attachments/assets/765b4d9d-38be-44e1-bdde-bb8be1abfde9" />
 
 *Tehtävässä a luotu antero kirjautuu suoraan ilman salasanaa*
+
+
+
