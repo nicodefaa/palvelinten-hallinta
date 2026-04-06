@@ -30,18 +30,20 @@ Lähde: [Sudo without password](https://terokarvinen.com/passwordless-sudo/)
 
 - Lisätään uusi rooli ja sen alle oma */tasks/main.yml*
 - Lisätään sinne ryhmän luonti, käyttäjän luonti, SSH-avaimen lisäys ja NOPASSWD-asetus
+- Lisätään uusi rooli myös *site.yml*:n listaan
 - Tarkempi rakenne tehtävän a screenshotissa alla
 
 Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-sudo-with-ansible/)
 
 
-## a)
+### a)
+
 <img width="632" height="221" alt="kuva" src="https://github.com/user-attachments/assets/d0ad6bb3-d6d1-47dc-9cba-f84915a5cc63" />
 
 *Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvasta koska olen vainoharhainen* 😅
 
+### b)
 
+<img width="430" height="142" alt="kuva" src="https://github.com/user-attachments/assets/765b4d9d-38be-44e1-bdde-bb8be1abfde9" />
 
-*En aluksi muistanut lisätä omaa käyttäjääni sudoless-ryhmään, jolloin tuli seuraava virhe:*
-
-<img width="896" height="490" alt="kuva" src="https://github.com/user-attachments/assets/2f2ac577-16e7-4063-862c-7c098492b783" />
+*Tehtävässä a luotu antero kirjautuu suoraan ilman salasanaa*
