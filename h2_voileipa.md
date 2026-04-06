@@ -33,7 +33,7 @@ Lähde: [Sudo without password](https://terokarvinen.com/passwordless-sudo/)
 *Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvasta koska olen vainoharhainen* 😅
 
 
+
+*En aluksi muistanut lisätä omaa käyttäjääni sudoless-ryhmään, jolloin tuli seuraava virhe:*
+
 <img width="896" height="490" alt="kuva" src="https://github.com/user-attachments/assets/2f2ac577-16e7-4063-862c-7c098492b783" />
-
-
-Virhe
