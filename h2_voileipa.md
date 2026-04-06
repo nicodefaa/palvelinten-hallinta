@@ -28,6 +28,14 @@ Lähde: [Sudo without password](https://terokarvinen.com/passwordless-sudo/)
 
 ## Salasanaton sudo-käyttäjä Ansiblella
 
+- Lisätään uusi rooli ja sen alle oma */tasks/main.yml*
+- Lisätään sinne ryhmän luonti, käyttäjän luonti, SSH-avaimen lisäys ja NOPASSWD-asetus
+- Tarkempi rakenne tehtävän a screenshotissa alla
+
+Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-sudo-with-ansible/)
+
+
+## a)
 <img width="632" height="221" alt="kuva" src="https://github.com/user-attachments/assets/d0ad6bb3-d6d1-47dc-9cba-f84915a5cc63" />
 
 *Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvasta koska olen vainoharhainen* 😅
