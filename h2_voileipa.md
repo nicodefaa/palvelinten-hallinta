@@ -48,5 +48,8 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 
 *Tehtävässä a luotu antero kirjautuu suoraan ilman salasanaa*
 
+### c)
 
+<img width="168" height="116" alt="kuva" src="https://github.com/user-attachments/assets/96c82798-2ed4-439a-b20c-ef2596daa35b" />
+<img width="289" height="216" alt="kuva" src="https://github.com/user-attachments/assets/c95989d3-3dc9-4079-b872-0f4d98a7707e" />
 
