@@ -20,4 +20,6 @@ NOPASSWD = ei kysy salasanaa
 
 ALL = saa suorittaa kaikkia komentoja
 
+- Lopuksi testataan: *ssh antero@localhost* -> *sudo -k* -> sudo echo "testi" -> Ei kysy salasanaa komentoa varten
+
 ---
