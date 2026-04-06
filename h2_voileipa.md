@@ -36,23 +36,23 @@ Lähde: [Sudo without password](https://terokarvinen.com/passwordless-sudo/)
 Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-sudo-with-ansible/)
 
 
-### a)
+### a) Sudoless tunnus ansiblella
 
 <img width="632" height="221" alt="kuva" src="https://github.com/user-attachments/assets/d0ad6bb3-d6d1-47dc-9cba-f84915a5cc63" />
 
 *Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvasta koska foliohattu* 😅
 
-### b)
+### b) Anteron salasanaton SSH kirjautuminen
 
 <img width="430" height="142" alt="kuva" src="https://github.com/user-attachments/assets/765b4d9d-38be-44e1-bdde-bb8be1abfde9" />
 
 *Tehtävässä a luotu antero kirjautuu suoraan ilman salasanaa*
 
-### c)
+### c) Pakettien asennus
 
 <img width="278" height="141" alt="kuva" src="https://github.com/user-attachments/assets/1ea4af7e-eed0-4618-a0e3-53c4287b145d" />
 
-*roles/package/tasks/main.yml asetettu asentamaan 3 pakettia*
+*roles/package/tasks/main.yml asetettu asentamaan 3 pakettia. update_cache: yes = apt-get update*
 
 <img width="168" height="116" alt="kuva" src="https://github.com/user-attachments/assets/96c82798-2ed4-439a-b20c-ef2596daa35b" />
 
