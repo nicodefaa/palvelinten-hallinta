@@ -74,7 +74,9 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 
 <img width="310" height="105" alt="kuva" src="https://github.com/user-attachments/assets/72dc0987-219e-430f-a62c-dbc92cec8490" />
 
-*roolin suoritus lisätty site.yml*
+*roolin suoritus lisätty site.yml playbookiin*
+
+### e) Jotain muuta 
 
 
 
