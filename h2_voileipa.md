@@ -30,4 +30,9 @@ Lähde: [Sudo without password](https://terokarvinen.com/passwordless-sudo/)
 
 <img width="632" height="221" alt="kuva" src="https://github.com/user-attachments/assets/d0ad6bb3-d6d1-47dc-9cba-f84915a5cc63" />
 
-*Huomio: Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvassa koska olen vainoharhainen* 😅
+*Julkinen avain on turvallista jakaa, mutta peitin sen itse kuvasta koska olen vainoharhainen* 😅
+
+
+
+<img width="793" height="482" alt="kuva" src="https://github.com/user-attachments/assets/7c7fd235-7bd9-4345-bc1d-6b4125ce53a2" />
+Virhe
