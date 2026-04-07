@@ -35,6 +35,38 @@ Lähde: [Sudo without password](https://terokarvinen.com/passwordless-sudo/)
 
 Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-sudo-with-ansible/)
 
+## Ansible-doc 
+### ansible-doc copy
+content - kirjoittaa tekstisisällön tiedostoon
+dest - kohdetiedosto ja -polku johon kopioidaan
+src - lähdetiedosto joka kopioidaan
+owner & group - ryhmä ja omistaja joka tulee olemaan kohteella
+mode - oikeudet jotka tulee olemaan kohteella, esim 0600 tai 0744
+
+### ansible-doc apt
+name - paketin nimi, voi olla useampia
+state - "tila" asennettu/poistettu (present/absent)
+update_cache - ajaa komennon "apt-get update" eli päivittää "pakettivaraston"
+
+### ansible-doc file
+path - tiedostopolku muokattavaan tiedostoon
+recurse - "true" asettaa asetukset myös alikansioihin
+src - käytetään liittämään linkki johonkin tiedostoon
+state - vaihtoehtoina esim absent, joka poistaa ja directory joka luo kansion
+owner, group, mode - omistaja, ryhmä ja oikeudet
+
+### ansible-doc user
+name - käyttäjänimi
+create_home - "true" luo käyttäjälle kotihakemiston (yleensä oletus), "false" ei luo
+comment - vapaa kuvaus
+groups - ryhmä(t) joihin luotava käyttäjä tulee kuulumaan
+shell - komentotulkki (esim. /bin/bash)
+state - present/absent luo tai poistaa
+system - järjestelmäkäyttäjän luontia varten
+
+## ansible-doc authorized_key
+user - käyttäjä jolle SSH-avain lisätään
+key - SSH-avain joka lisätään (julkinen avain)
 
 ### a) Sudoless tunnus ansiblella
 
