@@ -76,7 +76,15 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 
 *roolin suoritus lisätty site.yml playbookiin*
 
-### e) Jotain muuta 
+### e) Jotain muuta - palvelun käynnistys (service)
 
+<img width="332" height="89" alt="kuva" src="https://github.com/user-attachments/assets/755b4e9b-911d-46b8-8761-2f04b51f61e2" />
 
+*roles/service/tasks/main.yml sisältö. Lisäsin "- service" site.yml playbookiin samaan tapaan kuin muut aikaisemmissa tehtävissä*
 
+<img width="578" height="262" alt="kuva" src="https://github.com/user-attachments/assets/bce42b1c-6dd3-4f2f-8107-a370bea05e57" />
+
+*Poistin cron-palvelun käytöstä playbookin suorituksen testaamista varten*
+
+<img width="638" height="173" alt="kuva" src="https://github.com/user-attachments/assets/d3a132aa-f3a2-4810-91c0-91a40bcfab6f" />
+*Playbookin suorituksen jälkeen cron-palvelu meni takaisin päälle.*
