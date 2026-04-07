@@ -88,4 +88,4 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 
 <img width="638" height="173" alt="kuva" src="https://github.com/user-attachments/assets/d3a132aa-f3a2-4810-91c0-91a40bcfab6f" />
 
-*Playbookin suorituksen jälkeen cron-palvelu meni takaisin päälle.*
+*Playbookin suorituksen jälkeen cron-palvelu meni takaisin päälle. Tämän jälkeen playbookin uudessa suorituksessa tuloksena ok=9 changed=0, koska kaikki ehdot olivat jo toteutettuna.*
