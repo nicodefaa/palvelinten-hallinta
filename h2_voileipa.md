@@ -87,4 +87,5 @@ Lähde: [Passwordless Sudo with Ansible](https://terokarvinen.com/passwordless-s
 *Poistin cron-palvelun käytöstä playbookin suorituksen testaamista varten*
 
 <img width="638" height="173" alt="kuva" src="https://github.com/user-attachments/assets/d3a132aa-f3a2-4810-91c0-91a40bcfab6f" />
+
 *Playbookin suorituksen jälkeen cron-palvelu meni takaisin päälle.*
