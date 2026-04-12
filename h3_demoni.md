@@ -9,7 +9,7 @@
   - **files**: valmiit konfiguraatiotiedostot, esim *files/example.com.conf*
   - **handlers**: palvelun uudelleenkäynnistys
   - **tasks**: päätoimintojen suoritus, asentaa apachen, kopio conf-tiedoston palvelimelle ja luo linkin sites-enabled-hakemistoon¨
-- Lopputuloksena Apache näyttää uudelleenkäynnistyksen jälkeen http://localhost web-sivun.
+- Lopputuloksena Apache näyttää uudelleenkäynnistyksen jälkeen localhost web-sivun.
 
 Lähde: [Apache installed with Ansible - quick notes](https://terokarvinen.com/apache-ansible/)
 
