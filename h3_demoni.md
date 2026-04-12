@@ -11,7 +11,7 @@
   - **tasks**: päätoimintojen suoritus, asentaa apachen, kopio conf-tiedoston palvelimelle ja luo linkin sites-enabled-hakemistoon¨
 - Lopputuloksena Apache näyttää uudelleenkäynnistyksen jälkeen http://localhost web-sivun.
 
-Lähde: (Apache installed with Ansible - quick notes)[https://terokarvinen.com/apache-ansible/]
+Lähde: [Apache installed with Ansible - quick notes](https://terokarvinen.com/apache-ansible/)
 
 ## Handlerien suoritus ja notify
 
@@ -19,4 +19,4 @@ Lähde: (Apache installed with Ansible - quick notes)[https://terokarvinen.com/a
 - Tämä mahdollistaa ominaisuuden jossa palvelu voidaan uudelleenkäynnistää automaattisesti vain tilanteissa joissa on tehty muutoksia
 - Jos muutoksia ei tapahtu suorituksessa, ei myöskään uudelleenkäynnistystä tapahdu
 
-Lähde: (Handlers: running operations on change)[https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html]
+Lähde: [Handlers: running operations on change](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html)
