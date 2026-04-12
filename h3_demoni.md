@@ -32,22 +32,33 @@ Lähde: [Handlers: running operations on change](https://docs.ansible.com/projec
 - **EXAMPLES**:
 <img width="366" height="311" alt="kuva" src="https://github.com/user-attachments/assets/ccabb803-b8bd-4591-9a99-8a99ad5ecad7" />
 
-*Esimerkkejä ansible-doc service -sivulta
+Esimerkkejä ansible-doc service -sivulta
 1. käynnistää palvelun jos ei ole jo käynnissä.
 2. pysäyttää palvelun jos on käynnissä.
 3. uudelleenkäynnistää palvelun aina jos käynnissä, käynnistää jos ei ole käynnissä.
 4. lataa palvelun asetukset aina uudelleen
-5. laittaa palvelun päälle niin, että se käynnistyy systeemin yhteydessä, mutta ei vaikuta tämän hetkiseen päälläoloon.*
-
-
+5. laittaa palvelun päälle niin, että se käynnistyy systeemin yhteydessä, mutta ei vaikuta tämän hetkiseen päälläoloon.
 
 Lähde: [ansible.builtin.service module – Manage services](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/service_module.html) + *ansible-doc service* -komento
 
 ### Omia mietteitä
 Paljon uusia termejä joiden osuvat suomennokset alkavat olla haastavia keksiä, mutta tuntuu myös että suomentamalla ohjeet oppii samalla sisäistämään asian paremmin.
-
+Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update", kun molemmat tekevät päällisin puolin saman asian?
 
 ## a) Apassi - Apache2:n asennus manuaalisesti
+
+<img width="601" height="174" alt="kuva" src="https://github.com/user-attachments/assets/581aad95-a4e0-4f04-b277-16b102d2c5a8" />
+
+*Apachen asennus "sudo apt install apache2" ja statuksen tarkistus "systemctl status apache2". On päällä ja enabloitu.*
+
+<img width="577" height="71" alt="kuva" src="https://github.com/user-attachments/assets/65fe3a27-2be9-4ca5-8c7f-7675327d448b" />
+
+*"echo "teksti" > tiedostopolku" komentoformaatti nopeampi vaihtoehto microlle simppeliin testitekstiin.*
+
+<img width="560" height="141" alt="kuva" src="https://github.com/user-attachments/assets/43203951-509b-4bdc-abc7-1cb55d939a5d" />
+
+
+
 
 ## b) Moottorix - Nginx:n asennus manuaalisesti
 
