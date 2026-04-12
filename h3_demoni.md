@@ -97,6 +97,19 @@ Tehtävänannossa jäi itselleni hieman epäselväksi pitikö tämän olla KAIKK
 
 <img width="374" height="234" alt="kuva" src="https://github.com/user-attachments/assets/c8ced24a-cbd6-427c-a75d-bbf0e3bf6c2f" />
 
-*Asentaa nginx jos ei ole asennettuna, käynnistää nginx jos ei ole käynnissä, ja hakee ja muuttaa default-tiedostosta rivin joka muuttaa verkkosivun hakemiston*
+*Asentaa nginx jos ei ole asennettuna, käynnistää nginx jos ei ole käynnissä, ja hakee ja muuttaa default-tiedostosta rivin joka muuttaa verkkosivun hakemiston. Lopuksi käyttää notify-kutsua handlerille käynnistämään nginx uudelleen.*
 
-## d) Vapaaehtoinen bonus
+<img width="181" height="82" alt="kuva" src="https://github.com/user-attachments/assets/01c5b604-3cdd-4601-982c-3b989bfd5429" />
+
+*roles/nginx/handlers/main.yml -tiedosto, jossa on kutsuttava nginx uudelleenkäynnistys. name-kohdan täytyy olla täysin sama kuin taskin notify:ssa.*
+
+Tämän jälkeen lisäsin nginx-roolin site.yml-tiedostoon, vaihdoin default-tiedoston rivin 41 takaisin oletukseen "root /var/www/html;" testausta varten ja ajoin playbookin:
+
+<img width="1144" height="164" alt="kuva" src="https://github.com/user-attachments/assets/b48071c1-b2ed-4ccf-8358-238967242f71" />
+
+*Ensimmäinen ajo: changed=2. Vaihtoi default-tiedoston rivin 41 hakemistopolun sivulle. Ja handler käynnisti nginx:in uudelleen, koska task teki muutoksia.*
+
+<img width="1133" height="163" alt="kuva" src="https://github.com/user-attachments/assets/42351ce8-3cfc-425a-909d-d67b058bdfd5" />
+
+*Toinen ajo ei tehnyt enää muutoksia = idempotentti* 👌
+
