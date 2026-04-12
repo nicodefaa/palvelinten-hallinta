@@ -53,7 +53,7 @@ Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update
 
 <img width="577" height="71" alt="kuva" src="https://github.com/user-attachments/assets/65fe3a27-2be9-4ca5-8c7f-7675327d448b" />
 
-*"echo "teksti" > tiedostopolku" komentoformaatti nopeampi vaihtoehto microlle simppeliin testitekstiin.*
+*"echo "teksti" > tiedostopolku" komentoformaatti nopeampi vaihtoehto microlle simppeliin testitekstiin. Luotu kotihakemistooni.*
 
 <img width="560" height="141" alt="kuva" src="https://github.com/user-attachments/assets/43203951-509b-4bdc-abc7-1cb55d939a5d" />
 
@@ -63,6 +63,9 @@ Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update
 
 *"a2ensite"-komento ottaa sivuston käyttöön eli tekee kohdetiedostoon symbolisen linkin /etc/apache2/sites-available -hakemistoon. "a2disssite" poistaa sivuston käytöstä eli poistaa symbolisen linkin kohdetiedostoon sites-enabled -hakemistosta.*
 
+<img width="664" height="134" alt="kuva" src="https://github.com/user-attachments/assets/a87339d2-ee91-497e-b5a0-a81e74a45de8" />
+
+*
 
 
 ## b) Moottorix - Nginx:n asennus manuaalisesti
