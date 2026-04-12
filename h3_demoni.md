@@ -82,7 +82,7 @@ Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update
 
 <img width="690" height="118" alt="kuva" src="https://github.com/user-attachments/assets/a299b21e-f1b3-4bd4-a9e5-c3018959c1a3" />
 
-*Vaihdoin /etc/nginx/sites-available/default -tiedostossa tekstieditorilla rivin "root /var/www/html;" > "root /home/nico/julkinen_html;", jolloin reloadin jälkeen nginx hakee sivun oletuksen sijaan tuosta hakemistosta. Lisäsin myös toisen rivin "index index.html;" varmistaakseni että käytetään aina index.html-tiedostoa (vaikka se onkin usein oletuksena). Lopputuloksena selaimessa näkyy nyt kirjoittamani index.html:n sisältö.*
+*Vaihdoin /etc/nginx/sites-available/default -tiedostossa tekstieditorilla rivin(41) "root /var/www/html;" > "root /home/nico/julkinen_html;", jolloin reloadin jälkeen nginx hakee sivun oletuksen sijaan tuosta hakemistosta. Lisäsin myös toisen rivin(42) "index index.html;" varmistaakseni että käytetään aina index.html-tiedostoa (vaikka se onkin usein oletuksena). Lopputuloksena selaimessa näkyy nyt kirjoittamani index.html:n sisältö.*
 
 <img width="381" height="189" alt="kuva" src="https://github.com/user-attachments/assets/77c86f13-14a3-4678-a76a-e0d0db526956" />
 
@@ -92,5 +92,7 @@ Oma huomio:
 Tehtävänannossa jäi itselleni hieman epäselväksi pitikö tämän olla KAIKKIEN tavallisten käyttäjien muokattavissa, vai ainoastaan oman käyttäjäni joka on myös tässä tapauksessa tiedoston omistaja. Eikö omistajalla ole yleensä oletuksena oikeus muokata omistamaansa tiedostoa ilman sudoa?
 
 ## c) Automoottorix - Nginx: asennus Ansiblella
+
+
 
 ## d) Vapaaehtoinen bonus
