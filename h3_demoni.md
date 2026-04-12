@@ -93,6 +93,10 @@ Tehtävänannossa jäi itselleni hieman epäselväksi pitikö tämän olla KAIKK
 
 ## c) Automoottorix - Nginx: asennus Ansiblella
 
+*Tein nginx:ille oman roolin ja tehtävän: mkdir -p roles/nginx/tasks/main.yml*
 
+<img width="374" height="234" alt="kuva" src="https://github.com/user-attachments/assets/c8ced24a-cbd6-427c-a75d-bbf0e3bf6c2f" />
+
+*Asentaa nginx jos ei ole asennettuna, käynnistää nginx jos ei ole käynnissä, ja hakee ja muuttaa default-tiedostosta rivin joka muuttaa verkkosivun hakemiston*
 
 ## d) Vapaaehtoinen bonus
