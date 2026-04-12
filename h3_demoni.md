@@ -97,7 +97,7 @@ Tehtävänannossa jäi itselleni hieman epäselväksi pitikö tämän olla KAIKK
 
 <img width="374" height="234" alt="kuva" src="https://github.com/user-attachments/assets/c8ced24a-cbd6-427c-a75d-bbf0e3bf6c2f" />
 
-*Asentaa nginx jos ei ole asennettuna, käynnistää nginx jos ei ole käynnissä, ja hakee ja muuttaa default-tiedostosta rivin joka muuttaa verkkosivun hakemiston. Lopuksi käyttää notify-kutsua handlerille käynnistämään nginx uudelleen.*
+*Asentaa nginx jos ei ole asennettuna, käynnistää nginx jos ei ole käynnissä, ja hakee ja muuttaa default-tiedostosta rivin joka muuttaa verkkosivun hakemiston. Lopuksi käyttää notify-kutsua handlerille käynnistämään nginx uudelleen. (Kuvaan jäi sisennysvirhe: notifyn pitää olla linjassa namen ja replacen kanssa.)*
 
 <img width="181" height="82" alt="kuva" src="https://github.com/user-attachments/assets/01c5b604-3cdd-4601-982c-3b989bfd5429" />
 
