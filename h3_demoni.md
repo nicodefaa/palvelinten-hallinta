@@ -65,10 +65,28 @@ Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update
 
 <img width="664" height="134" alt="kuva" src="https://github.com/user-attachments/assets/a87339d2-ee91-497e-b5a0-a81e74a45de8" />
 
-*
+*Sivuston sisältö näkyy nyt selaimella localhost-osoitteessa.*
 
 
 ## b) Moottorix - Nginx:n asennus manuaalisesti
+
+- Apache2 pois päältä ja nginx asennus: *sudo systemctl stop apache2 > sudo systemctl disable apache2 > sudo apt update > sudo apt install nginx*
+
+<img width="583" height="198" alt="kuva" src="https://github.com/user-attachments/assets/df16322d-e710-4f37-b037-957b502f7f73" />
+
+*Nginx on asennuksen jälkeen valmiiksi päällä ja enabloituna -> selaimeen aukeaa nyt oletus index.html*
+
+<img width="555" height="56" alt="kuva" src="https://github.com/user-attachments/assets/9f74efeb-a4be-4f93-91d0-a8be78356fa9" />
+
+*Muutin oman index.html -sivuni tekstiä testaamista varten. Echo-komennolla vienti korvaa aikaisemman tekstin kokonaan tiedostosta.*
+
+<img width="690" height="118" alt="kuva" src="https://github.com/user-attachments/assets/a299b21e-f1b3-4bd4-a9e5-c3018959c1a3" />
+
+**
+
+<img width="381" height="189" alt="kuva" src="https://github.com/user-attachments/assets/77c86f13-14a3-4678-a76a-e0d0db526956" />
+
+
 
 ## c) Automoottorix - Nginx: asennus Ansiblella
 
