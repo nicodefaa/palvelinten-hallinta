@@ -25,6 +25,15 @@ Lähde: [Handlers: running operations on change](https://docs.ansible.com/projec
 
 ## Ansible-doc service
 
+- Johdanto: 
+- **enabled**: määrittää käynnistyykö palvelu systeemin käynnistyksen yhteydessä. boolean-arvo eli true/false. Vähintään toinen, **state**- tai **enabled**-määritys vaaditaan aina.
+- **name**:
+- **state**:
+- **EXAMPLES**:
+
+
+Lähde: [ansible.builtin.service module – Manage services](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/service_module.html) + *ansible-doc service* -komento
+
 ## a) Apassi - Apache2:n asennus manuaalisesti
 
 ## b) Moottorix - Nginx:n asennus manuaalisesti
