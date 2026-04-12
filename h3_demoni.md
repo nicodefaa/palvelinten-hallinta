@@ -1,8 +1,11 @@
-# h3 Demoni
+# h3 Demoni (Daemon)
 
 ## Apachen asennus Ansiblella
 
-- Käytetään **package**-komentoa asentamaan apache2 "sudo apt-get install apache2"
-- Käytetään **file**-komentoa kopioimaan ja hallitsemaan asetustiedostoja "sudoedit /etc/apache2/..."
-- Käytetään **service**-komentoa (uudelleen)käynnistämään palvelu "sudo systemctl restart apache2"
-- Luodaan rooli apache2 ja jaetaan se kolmeen osaan: **files**, **handlers** ja **tasks**.
+- Käytetään **package**-mallia asentamaan apache2. Komento: *sudo apt-get install apache2*
+- Käytetään **file**-mallia kopioimaan ja hallitsemaan asetustiedostoja. Komento: *sudoedit /etc/apache2/...*
+- Käytetään **service**-mallia (uudelleen)käynnistämään palvelu. Komento: *sudo systemctl restart apache2*
+- Luodaan rooli apache2 ja jaetaan se kolmeen osaan:
+  - **files**: valmiit konfiguraatiotiedostot
+  - **handlers**: palvelun uudelleenkäynnistys
+  - **tasks**: päätoimintojen suoritus (tiedostojen luonti, kopiointi, asennus yms..)
