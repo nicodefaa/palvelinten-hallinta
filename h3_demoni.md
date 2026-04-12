@@ -57,6 +57,11 @@ Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update
 
 <img width="560" height="141" alt="kuva" src="https://github.com/user-attachments/assets/43203951-509b-4bdc-abc7-1cb55d939a5d" />
 
+*Apachen conf-asetustiedoston luonti.*
+
+<img width="676" height="264" alt="kuva" src="https://github.com/user-attachments/assets/a4333322-839a-4173-be92-34493efbb968" />
+
+*"a2ensite"-komento ottaa sivuston käyttöön eli tekee kohdetiedostoon symbolisen linkin /etc/apache2/sites-available -hakemistoon. "a2disssite" poistaa sivuston käytöstä eli poistaa symbolisen linkin kohdetiedostoon sites-enabled -hakemistosta.*
 
 
 
