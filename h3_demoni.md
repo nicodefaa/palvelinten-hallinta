@@ -82,7 +82,7 @@ Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update
 
 <img width="690" height="118" alt="kuva" src="https://github.com/user-attachments/assets/a299b21e-f1b3-4bd4-a9e5-c3018959c1a3" />
 
-**
+*Vaihdoin /etc/nginx/sites-available/default -tiedostossa tekstieditorilla rivin "root /var/www/html;" > "root /home/nico/julkinen_html;", jolloin reloadin jälkeen nginx hakee sivun oletuksen sijaan tuosta hakemistosta. Lisäsin myös toisen rivin "index index.html;" varmistaakseni että käytetään aina index.html-tiedostoa (vaikka se onkin usein oletuksena). Lopputuloksena selaimessa näkyy nyt kirjoittamani index.html:n sisältö.*
 
 <img width="381" height="189" alt="kuva" src="https://github.com/user-attachments/assets/77c86f13-14a3-4678-a76a-e0d0db526956" />
 
