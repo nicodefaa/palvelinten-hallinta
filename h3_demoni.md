@@ -86,7 +86,10 @@ Onko oikeasti väliä käytetäänkö "sudo apt-get update" vai "sudo apt update
 
 <img width="381" height="189" alt="kuva" src="https://github.com/user-attachments/assets/77c86f13-14a3-4678-a76a-e0d0db526956" />
 
+*Kotihakemistooni others:illa x-oikeudet (kansioiden avaus/suoritus) ja index.html tiedostoon r-oikeudet eli lukuoikeudet.*
 
+Oma huomio:
+Tehtävänannossa jäi itselleni hieman epäselväksi pitikö tämän olla KAIKKIEN tavallisten käyttäjien muokattavissa, vai ainoastaan oman käyttäjäni joka on myös tässä tapauksessa tiedoston omistaja. Eikö omistajalla ole yleensä oletuksena oikeus muokata omistamaansa tiedostoa ilman sudoa?
 
 ## c) Automoottorix - Nginx: asennus Ansiblella
 
