@@ -60,10 +60,29 @@ Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt instal
 
 <img width="632" height="374" alt="kuva" src="https://github.com/user-attachments/assets/3b143189-9b04-41c2-8588-ecf72231a353" />
 
-*Playbook ajoi ilman virheitä, mutta muutoksia ei tullut, koska olin ne jo tehnyt manuaalisesti tehtävässä a.*
-
+*Playbook ajoi ilman virheitä (=hyvä), mutta muutoksia ei vielä tullut, koska olin ne jo tehnyt manuaalisesti tehtävässä a. (Jatkuu alla tehtävässä c.)*
 
 ## c) Asetus / Asetustiedoston muuttaminen
+
+<img width="505" height="275" alt="kuva" src="https://github.com/user-attachments/assets/e7b9124b-437e-48fa-a689-4f1c506b4c8d" />
+
+*Muunsin roles/rsyslog/tasks/main.yml -tiedoston content-kohtaa, niin että se ohjaa ainoastaan user-facilityn ("luokan") lokiviestit test.log-tiedostoon.*
+
+<img width="1024" height="342" alt="kuva" src="https://github.com/user-attachments/assets/888800c5-128b-4cc2-9340-639aed72df42" />
+
+*Tällä kertaa playbookia ajaessa sain error-viestin, jossa kerrottiin että kutsuttavaa "restart syslog" handleria ei löydy. Tässä kohtaa tajusin heti, että virhe johtui typosta (r puuttui), sillä kutsuttavan handlerin ja itse handlerin nimen tulee olla täysin identtiset. Korjasin virheen roles/syslog/tasks/main.yml -tiedostosta, jonka jälkeen playbook ajoi ilman virheitä.*
+
+<img width="622" height="58" alt="kuva" src="https://github.com/user-attachments/assets/31dad703-0d65-46eb-bad3-9afc73208862" />
+
+*Muutokset kuitenkin tehtiin vaikka ansible ei virheen takia siitä antanutkaan lopullista ilmoitusta (koska seuraavassa ajossa tuli edelleen ok=4, changed=0), joten jouduin vielä muuttamaan manuaalisesti test.conf-tiedoston ajoa edeltävään tilaan.*
+
+<img width="1144" height="223" alt="kuva" src="https://github.com/user-attachments/assets/324f5387-6b9d-41f2-9779-5d8025d0101c" />
+
+*Tämän jälkeen playbookia ajaessa tuli changed=2. (Ja seuraavassa taas changed=0 eli on idempotentti)*
+
+
+
+
 
 ## d) Paikka remonttiin / Asetusten rikkominen, ja korjaus Ansiblella
 
