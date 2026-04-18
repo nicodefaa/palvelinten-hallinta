@@ -82,8 +82,20 @@ Tämän jälkeen playbookia ajaessa tuli changed=2, eli conf-tiedoston muutos ja
 
 <img width="614" height="98" alt="kuva" src="https://github.com/user-attachments/assets/a6035d65-565a-48ab-a393-b2f0d2fc2974" />
 
-*test.conf-tiedoston sisältö muuttui ansiblen toimesta.*
+test.conf-tiedoston sisältö muuttui ansiblen toimesta.
 
 ## d) Paikka remonttiin / Asetusten rikkominen, ja korjaus Ansiblella
 
+<img width="597" height="385" alt="kuva" src="https://github.com/user-attachments/assets/1eca95b7-4601-495b-b3b3-b61a91a3ec16" />
+
+Poistin rsyslog:in *sudo apt-get puge rsyslog* -komennolla, ja tarkistin vielä statuksen *systemctl status rsyslog*, josta tuli vain virheviesti tämän johdosta.
+
+<img width="566" height="374" alt="kuva" src="https://github.com/user-attachments/assets/7d02475f-160d-4536-9f45-e9becc721ba4" />
+
+Ajoin playbookin taas uudelleen. Tällä kertaa suorituskessa kesti muutama sekunti pitempään, sillä se asensi rsyslog-daemonin, koska sitä ei ollut asennettuna ehtojen mukaan.
+
 ## e) Idempotetti
+
+<img width="678" height="405" alt="kuva" src="https://github.com/user-attachments/assets/e18da56f-c377-464b-a72f-ec522a079809" />
+
+Ja seuraava ajo antoi jälleen kerran ok=4, changed=0. 👌
