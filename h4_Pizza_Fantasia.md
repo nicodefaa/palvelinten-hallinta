@@ -94,6 +94,10 @@ Poistin rsyslog:in *sudo apt-get puge rsyslog* -komennolla, ja tarkistin vielä 
 
 Ajoin playbookin taas uudelleen. Tällä kertaa suorituskessa kesti muutama sekunti pitempään, sillä se asensi rsyslog-daemonin, koska sitä ei ollut asennettuna ehtojen mukaan.
 
+<img width="826" height="224" alt="kuva" src="https://github.com/user-attachments/assets/24105065-77bd-4eb4-8095-eaa2be2bd07a" />
+
+logger-komennolla syöttäminen toimi edelleen entiseen malliin purge:n ja korjauksen jälkeen.
+
 ## e) Idempotetti
 
 <img width="678" height="405" alt="kuva" src="https://github.com/user-attachments/assets/e18da56f-c377-464b-a72f-ec522a079809" />
