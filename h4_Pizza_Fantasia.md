@@ -40,6 +40,10 @@ Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt instal
 
 *Tein muutoksen konfiguraatioon kuvassa näkyvin komennoin. `*.* /var/log/test.log` **test.conf**-tiedostossa kertoo rsyslogille, että kaikki logiviestit tulee viedä **test.log**-tiedostoon.*
 
+<img width="674" height="66" alt="kuva" src="https://github.com/user-attachments/assets/5a783e9c-6073-45f9-a359-dae85601485b" />
+
+*Tämän jälkeen uusi testisyöte tallentui **test.log**-tiedostoon (kaikkien muiden automaattisten logiviestien ohella).*
+
 
 ## b) Automaatti / Daemonin asennus Ansiblella
 
