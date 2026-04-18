@@ -78,7 +78,7 @@ Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt instal
 
 <img width="1144" height="223" alt="kuva" src="https://github.com/user-attachments/assets/324f5387-6b9d-41f2-9779-5d8025d0101c" />
 
-*Tämän jälkeen playbookia ajaessa tuli changed=2. (Ja seuraavassa taas changed=0 eli on idempotentti)*
+*Tämän jälkeen playbookia ajaessa tuli changed=2, eli conf-tiedoston muutos ja restart. (Ja seuraavassa taas changed=0 eli on idempotentti)*
 
 <img width="614" height="98" alt="kuva" src="https://github.com/user-attachments/assets/a6035d65-565a-48ab-a393-b2f0d2fc2974" />
 
