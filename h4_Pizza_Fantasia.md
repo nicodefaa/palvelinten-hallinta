@@ -34,7 +34,11 @@ Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt instal
 
 <img width="784" height="145" alt="kuva" src="https://github.com/user-attachments/assets/ce12de09-c523-47b9-98a2-0ec2eb378886" />
 
-*Suoritin testin, jossa kirjoitin logiin oman lisäyksen komennolla "logger "rsyslog testi", ja tämän jälkeen printtasin login viimeiset 3 riviä komennolla "tail -n 3 /var/log/syslog". tail printtaa oletuksena tiedoston viimeiset 10 riviä, ja -n parametrillä voidaan valita oma haluttu määrä rivejä.*
+*Suoritin testin, jossa kirjoitin logiin oman lisäyksen komennolla logger **"rsyslog testi"**, ja tämän jälkeen printtasin login viimeiset 3 riviä komennolla **tail -n 3 /var/log/syslog**. tail printtaa oletuksena tiedoston viimeiset 10 riviä, ja -n parametrillä voidaan valita oma haluttu määrä rivejä.*
+
+<img width="589" height="57" alt="kuva" src="https://github.com/user-attachments/assets/e5573937-4490-4bc3-8074-6b28f673a1df" />
+
+*Tein muutoksen konfiguraatioon kuvassa näkyvin komennoin. ***.* /var/log/test.log** kertoo rsyslogille, että kaikki logiviestit tulee viedä **test.log**-tiedostoon.*
 
 
 ## b) Automaatti / Daemonin asennus Ansiblella
