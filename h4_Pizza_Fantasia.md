@@ -9,4 +9,4 @@
 
 ### 4.12.3.1 Dependencies Between Main Functions (115-117. Tärkeimmät rakennuspalikat.)
 
-Lähde: (Configuration Management of Distributed Systems over Unreliable and Hostile Networks. Karvinen, Tero 2024.)[https://westminsterresearch.westminster.ac.uk/item/w7vvz/configuration-management-of-distributed-systems-over-unreliable-and-hostile-networks]
+Lähde: [Configuration Management of Distributed Systems over Unreliable and Hostile Networks. Karvinen, Tero 2024.](https://westminsterresearch.westminster.ac.uk/item/w7vvz/configuration-management-of-distributed-systems-over-unreliable-and-hostile-networks)
