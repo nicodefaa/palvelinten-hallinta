@@ -107,7 +107,7 @@ Ja seuraava ajo antoi jälleen kerran ok=4, changed=0. 👌
 
 <img width="236" height="230" alt="kuva" src="https://github.com/user-attachments/assets/77f86e50-732a-4389-a219-f9e8ff472ce1" />
 
-Laitoin vielä kaikki roolit takaisin aktiivisiksi (poistamalla poiskirjoittamisen eli #) ja ajoin koko playbookin kahteen kertaan uudelleen:
+Laitoin vielä kaikki roolit takaisin aktiivisiksi (poistamalla poiskirjoittamisen eli # site.yml:stä) ja ajoin koko playbookin kahteen kertaan uudelleen:
 
 <img width="640" height="81" alt="kuva" src="https://github.com/user-attachments/assets/4bfcd622-9008-4375-b919-167690e43aa1" />
 
