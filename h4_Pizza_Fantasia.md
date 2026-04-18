@@ -15,6 +15,7 @@
 - Konfiguraatiot perustuvat usein muutamaan perusmalliin, kuten *package-file-service* daemoneille, *package-file* sovelluksille (app), *user-group* käyttäjähallintaan (user management), ja *file-directory-symlink* tiedostojen hallintaan (file manipulation).
 - Suurin osa funktioista kutsuu järjestelmän natiiveja komentoja, kuten *apt-get*.
 - Systeemi tulee pyrkiä olemaan *idempotentti*, eli muutoksia tehdään suorittaessa vain silloin, jos ehdot eivät jo täyty. Jos järjestelmä on jo halutussa tilassa, voidaan hallintatyökalua ajaa uudelleen ilman, että se muuttaa mitään.
+- Kaksi yleisintä funktiota: *file*, joka on helppo tehdä idempotentiksi, ja *exec*, joka vaihtelee kutsuttavan ohjelman mukaan.
 
 Jos vain pientä osaa ominaisuuksista käytetään käytännössä, onko järkevää DSL:n sisältää oletuksena satoja muita joita käytetään vain erittäin harvoin? Onko niitä joskus ennen tarvittu enemmän?
 
@@ -22,6 +23,19 @@ Lähde: [Configuration Management of Distributed Systems over Unreliable and Hos
 
 
 ## a) Räpylä / Daemonin asennus käsin
+
+Valitsin tähän tehtävään **rsyslog**-daemonin, joka 
+
+Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt install rsyslog*.
+
+<img width="699" height="281" alt="kuva" src="https://github.com/user-attachments/assets/dfcbd8da-9f71-4a94-bf49-4870c5338c9b" />
+
+*rsyslogin status. Käynnissä ja enabloituna*
+
+<img width="697" height="131" alt="kuva" src="https://github.com/user-attachments/assets/c421eb7e-516c-45f1-86c7-88c8e4fb8b1b" />
+
+*Suoritin testin, jossa kirjoitin logiin oman lisäyksen komennolla "logger "rsyslog testi", ja tämän jälkeen printtasin login viimeiset 3 riviä komennolla "tail -n 3 /var/log/syslog". tail printtaa oletuksena tiedoston viimeiset 10 riviä, ja -n parametrillä voidaan valita oma haluttu määrä rivejä.*
+
 
 ## b) Automaatti / Daemonin asennus Ansiblella
 
