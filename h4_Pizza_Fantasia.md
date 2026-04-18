@@ -42,10 +42,13 @@ Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt instal
 
 <img width="674" height="66" alt="kuva" src="https://github.com/user-attachments/assets/5a783e9c-6073-45f9-a359-dae85601485b" />
 
-*Tämän jälkeen uusi testisyöte tallentui **test.log**-tiedostoon (kaikkien muiden automaattisten logiviestien ohella).*
-
+*Tämän jälkeen tekemäni uusi testisyöte tallentui **test.log**-tiedostoon (kaikkien muiden automaattisten logiviestien ohella).*
 
 ## b) Automaatti / Daemonin asennus Ansiblella
+
+<img width="656" height="458" alt="kuva" src="https://github.com/user-attachments/assets/0d9e57c6-0a38-457c-ac9c-5f401d48f980" />
+*Loin rsyslogille omat task- ja handlers-hakemistot, sekä task:n alle main.yml tiedoston johon kirjoitin yllä kuvassa näkyvän tekstin. Toiminto asentaa rsyslogin, tarkistaa että se on käynnissä ja enabloituna, sekä luo konfiguraatio-tiedoston uutta logitiedostoa varten samaan tapaan kuin tein manuaalisesti tehtävässä a.*
+
 
 ## c) Asetus / Asetustiedoston muuttaminen
 
