@@ -47,7 +47,20 @@ Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt instal
 ## b) Automaatti / Daemonin asennus Ansiblella
 
 <img width="656" height="458" alt="kuva" src="https://github.com/user-attachments/assets/0d9e57c6-0a38-457c-ac9c-5f401d48f980" />
-*Loin rsyslogille omat task- ja handlers-hakemistot, sekä task:n alle main.yml tiedoston johon kirjoitin yllä kuvassa näkyvän tekstin. Toiminto asentaa rsyslogin, tarkistaa että se on käynnissä ja enabloituna, sekä luo konfiguraatio-tiedoston uutta logitiedostoa varten samaan tapaan kuin tein manuaalisesti tehtävässä a.*
+
+*Loin rsyslogille omat task- ja handlers-hakemistot, sekä task:n alle main.yml tiedoston johon kirjoitin yllä kuvassa näkyvän tekstin. Toiminto asentaa rsyslogin, tarkistaa että se on käynnissä ja enabloituna, sekä luo konfiguraatio-tiedoston uutta logitiedostoa varten samaan tapaan kuin tein manuaalisesti tehtävässä a. Lopuksi kutsutaan vielä handleria käynnistämään rsyslog uudelleen mikäli muutoksia tehdään.*
+
+<img width="687" height="115" alt="kuva" src="https://github.com/user-attachments/assets/cd082832-5539-4dc1-93f5-b72e7a6705d7" />
+
+*Handler, joka uudelleenkäynnistää rsyslog:in kutsuttaessa.*
+
+<img width="196" height="219" alt="kuva" src="https://github.com/user-attachments/assets/957cc9d2-abbf-424d-99a3-3f31ff0ba1bb" />
+
+*Lopuksi vielä rsyslog-roolin lisäys site.yml-playbookiin, jotta se ajetaan. Kommentoin muut roolit ulos testin ajaksi, jotta suoritus on hieman nopeampaa ja tekstiä tulee ruudulle vähemmän. shift + alt + ylä/alanuoli = multicursor.*
+
+<img width="632" height="374" alt="kuva" src="https://github.com/user-attachments/assets/3b143189-9b04-41c2-8588-ecf72231a353" />
+
+*Playbook ajoi ilman virheitä, mutta muutoksia ei tullut, koska olin ne jo tehnyt manuaalisesti tehtävässä a.*
 
 
 ## c) Asetus / Asetustiedoston muuttaminen
