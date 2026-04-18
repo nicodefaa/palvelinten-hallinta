@@ -80,6 +80,11 @@ Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt instal
 
 *Tämän jälkeen playbookia ajaessa tuli changed=2. (Ja seuraavassa taas changed=0 eli on idempotentti)*
 
+<img width="614" height="98" alt="kuva" src="https://github.com/user-attachments/assets/a6035d65-565a-48ab-a393-b2f0d2fc2974" />
+
+*test.conf-tiedoston sisältö muuttui ansiblen toimesta.*
+
+
 
 
 
