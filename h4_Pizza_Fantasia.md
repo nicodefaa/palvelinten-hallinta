@@ -24,7 +24,7 @@ Lähde: [Configuration Management of Distributed Systems over Unreliable and Hos
 
 ## a) Räpylä / Daemonin asennus käsin
 
-Valitsin tähän tehtävään **rsyslog**-daemonin, joka 
+Valitsin tähän tehtävään **rsyslog**-daemonin, joka kirjaa ja tallentaa järjestelmän tapahtumia automaattisesti tekstitiedostoihin, joita voi tarkastella myöhemmin.
 
 Aloitin asentamalla rsyslog:in komennoilla *sudo apt update* ja *sudo apt install rsyslog*.
 
