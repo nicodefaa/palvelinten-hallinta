@@ -1,6 +1,6 @@
 # h5 Gitar Hero
 
-## Tiivistelmä: 1.3 Getting Started - What is Git?
+## x) Tiivistelmä: 1.3 Getting Started - What is Git?
 
 - Git tallentaa projektin tilan snapshotteina jokaisen commitin yhteydessä.
 - Lähes kaikki Git:in toiminnot toimivat paikallisesti ilman verkkoa.
@@ -9,6 +9,8 @@
 - Muuttamatonta tiedostoa ei tallennetta uudelleen, vaan lisätään vain viittaus vanhaan versioon.
 
 Lähde: Chacon & Straub 2014.
+
+## a) Online - GitHub varaston luonti
 
 
 
