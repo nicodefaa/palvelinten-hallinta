@@ -99,8 +99,34 @@ Käytin komentoa `git log` näyttämään muutoslokin, jossa näkyi mm. kuka sen
 *git log ja git show*
 <br>
 
-## e) Gitanbile ---
+## e) Gitanbile --- Ansible-kansio Gittiin
 
+Siirryin ansible-hakemistoon ja käytin komentoa `git init` joka alusti repon Gittiin, ja loi hakemistoon piilotetun .git/ -kansion, jota Git käyttää versionhallintaan.
+
+<img width="803" height="653" alt="kuva" src="https://github.com/user-attachments/assets/a87f5090-1f24-4314-8b4b-5f967720b00d" />
+
+*git init, ja .git/-kansio ilmestyi*
+<br>
+
+Tämän jälkeen tein commitin `git add --all` ja `git commit -m "initial ansible state"`, joka lisäsi ansible-hakemiston nykyisellään Gittiin.
+
+<img width="769" height="362" alt="kuva" src="https://github.com/user-attachments/assets/0e882546-fbf7-4ba8-979c-4b3d497b74dd" />
+
+*ansible-hakemiston commit Gittiin*
+<br>
+
+En ollut varma minkälaista muutosta tehtävänanto tässä kohtaa halusi, mutta kommentoin ulos site.yml:stä kaikki roolit paitsi *hello*. Ajoin playbookin, joka suoritti nyt vain hello-roolin, ja vein muutokset commitilla Gittiin. Lopuksi katsoin vielä `git log` ja `git show` -komennoilla muutokset.
+
+<img width="722" height="570" alt="kuva" src="https://github.com/user-attachments/assets/f9ad822d-a07c-4b4a-ba2c-f035762006ae" />
+
+*playbook suoritti nyt vain hello-roolin*
+<br>
+
+
+<img width="524" height="788" alt="kuva" src="https://github.com/user-attachments/assets/abc18a96-4012-4914-b0e3-3641ba964c1d" />
+
+*git log ja show*
+<br>
 
 
 ## f) Projektipari
