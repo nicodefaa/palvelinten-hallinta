@@ -45,6 +45,7 @@ Käytin komentoa `git commit -m "viesti"` committaamaan muutokset. Tämä ensimm
 Lisäsin pyydetyt tiedot annetuilla komennoilla `git config --global user.name` \ `user.email`, jonka jälkeen tein commitin uudelleen:
 
 <img width="1104" height="131" alt="kuva" src="https://github.com/user-attachments/assets/7a3edc71-7967-4b3e-92fa-816fe73b0ee6" />
+<br>
 
 Ensimmäisen kerran kun yritin viedä muutokset komennolla `git push`, kysyttiin github tunnuksia, koska en ollut tällä koneella vielä yhdistänyt SSH-avainta GitHubiini. Kävin viemässä public-avaimeni ~/.ssh/id_ed25519.pub -tiedostosta Githubin asetuksiin SSH and GPG keys, jonka jälkeen yritin pushia uudelleen. Tällä kertaa push onnistui ja tehdyt muutokset tulivat näkyviin githubissa.
 
