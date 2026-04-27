@@ -32,6 +32,11 @@ ensin lisäsin README.md-tiedostoon uuden kommentin, ja sitten loin vielä kokon
 
 <img width="700" height="208" alt="kuva" src="https://github.com/user-attachments/assets/059ac968-3b61-4cdb-943e-93fd42553f0b" />
 
+Käytin komentoa `git add --all` lisäämään kaikki muutokset staging-alueelle valmiiksi commit:ia varten.
+
+Käytin komentoa `git commit -m "viesti"` committaamaan muutokset. Tämän yhteydessä tuli pyyntö 
+
+<img width="1106" height="293" alt="kuva" src="https://github.com/user-attachments/assets/5553da9d-f1dc-454c-9ac0-6355f11bc3a3" />
 
 
 
