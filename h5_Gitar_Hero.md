@@ -34,9 +34,12 @@ ensin lisäsin README.md-tiedostoon uuden kommentin, ja sitten loin vielä kokon
 
 Käytin komentoa `git add --all` lisäämään kaikki muutokset staging-alueelle valmiiksi commit:ia varten.
 
-Käytin komentoa `git commit -m "viesti"` committaamaan muutokset. Tämän yhteydessä tuli pyyntö 
+Käytin komentoa `git commit -m "viesti"` committaamaan muutokset. Tämän ensimmäinen commit keskeytyi ja tuli pyyntö lisätä konfiguraatioon käyttäjänimi ja sähköposti.
 
 <img width="1106" height="293" alt="kuva" src="https://github.com/user-attachments/assets/5553da9d-f1dc-454c-9ac0-6355f11bc3a3" />
+
+
+<img width="1104" height="131" alt="kuva" src="https://github.com/user-attachments/assets/7a3edc71-7967-4b3e-92fa-816fe73b0ee6" />
 
 
 
