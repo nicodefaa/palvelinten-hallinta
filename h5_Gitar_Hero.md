@@ -50,14 +50,13 @@ Lisäsin pyydetyt tiedot annetuilla komennoilla `git config --global user.name` 
 Ensimmäisen kerran kun yritin viedä muutokset komennolla `git push`, kysyttiin github tunnuksia, koska en ollut tällä koneella vielä yhdistänyt SSH-avainta GitHubiini. Kävin viemässä public-avaimeni ~/.ssh/id_ed25519.pub -tiedostosta Githubin asetuksiin SSH and GPG keys, jonka jälkeen yritin pushia uudelleen. Tällä kertaa push onnistui ja tehdyt muutokset tulivat näkyviin githubissa.
 
 <img width="459" height="137" alt="kuva" src="https://github.com/user-attachments/assets/eedfb21e-2b29-4001-bc17-686d5cc5d505" />
-
-<img width="738" height="247" alt="kuva" src="https://github.com/user-attachments/assets/21420786-6db9-4b88-b35f-1c1a27ee3442" />
-
-<img width="654" height="295" alt="kuva" src="https://github.com/user-attachments/assets/3b22e2c6-239c-463a-a9c2-cb37e16cfbed" />
+*Push meni läpi*
 
 <img width="919" height="313" alt="kuva" src="https://github.com/user-attachments/assets/493ff62f-a796-4a34-82d7-c79a478a850c" />
+*Testikommentti README.md:ssä*
 
 <img width="505" height="202" alt="kuva" src="https://github.com/user-attachments/assets/1020080a-eb53-429a-a045-c68c7e775cb0" />
+*Uusi lisätty shiningsun.txt-tiedosto*
 
 
 
