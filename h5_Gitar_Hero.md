@@ -22,9 +22,15 @@ Pistin päälle option, joka loi repoon README-tiedoston, sekä valitsin lisenss
 
 Kloonasin äsken tekemäni sunshine-repon käyttämällä komentoa `git clone [repon URL]`.
 
-Kloonauksen jälkeen kotihakemistoon tuli kansio "sunshine", ja sisältä löytyivät GitHubissakin näkyvät **LICENSE** ja **README.md**.
+Kloonauksen jälkeen kotihakemistoon tuli hakemisto "sunshine", ja sisältä löytyivät kopioituna GitHubissakin näkyvät **LICENSE** ja **README.md**.
 
 <img width="1065" height="223" alt="kuva" src="https://github.com/user-attachments/assets/21e8c69a-f162-41a8-8ca9-1ac3b5dfd66a" />
+
+Seuraavana tein pari muutosta; 
+
+ensin lisäsin README.md-tiedostoon uuden kommentin, ja sitten loin vielä kokonaan uuden tekstitiedoston:
+
+<img width="700" height="208" alt="kuva" src="https://github.com/user-attachments/assets/059ac968-3b61-4cdb-943e-93fd42553f0b" />
 
 
 
