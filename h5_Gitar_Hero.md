@@ -10,6 +10,17 @@
 
 Lähde: Chacon & Straub 2014.
 
+### git add --all && git commit; git pull && git push -komennon selitys:
+
+`git add --all` = lisää kaikki muutokset staging-alueelle.
+`&&` = suorittaa seuraavan komennon, jos edellinen onnistui.
+`git commit` = tallentaa staging-alueella olevat muutokset paikallisesti.
+`;` = suorittaa seuraavan komennon riippumatta siitä, onnistuiko edellinen.
+`git pull` = hakee muutokset online reposta ja yhdistää ne paikalliseen versioon.
+`git push` = vie paikalliset commitatut muutokset online repoon.
+
+Lähde: Git.
+
 ## a) Online --- GitHub varaston luonti
 
 Loin tehtävää varten uuden repon tänne githubiin ja nimesin sen "sunshine":ksi vaatimuksen mukaan.
@@ -143,3 +154,5 @@ Ilmoitus laitettu Moodlen foorumille 😉
 Lähdeluettelo:
 
 Chacon, S & Straub, B. 2014. Pro Git. 1.3 Getting Started - What is Git? Git. Luettavissa: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettu: 27.4.2026.
+
+Git. Reference. s.a. Luettavissa: https://git-scm.com/docs. Luettu: 27.4.2026.
