@@ -22,4 +22,4 @@ Pistin päälle option, joka loi repoon README-tiedoston, sekä valitsin lisenss
 
 Lähdeluettelo:
 
-Chacon, S & Straub, B. 2014. Pro Git. 1.3 Getting Started - What is Git? Git. Luettavissa: [https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F]. Luettu: 27.4.2026.
+Chacon, S & Straub, B. 2014. Pro Git. 1.3 Getting Started - What is Git? Git. Luettavissa: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettu: 27.4.2026.
