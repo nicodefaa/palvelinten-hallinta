@@ -66,12 +66,12 @@ Ensimmäisen kerran kun yritin viedä muutokset komennolla `git push`, kysyttiin
 
 <img width="919" height="313" alt="kuva" src="https://github.com/user-attachments/assets/493ff62f-a796-4a34-82d7-c79a478a850c" />
 
-*Testikommentti README.md:ssä*
+*Testikommentti README.md:ssä Githubissa*
 <br>
 
 <img width="505" height="202" alt="kuva" src="https://github.com/user-attachments/assets/1020080a-eb53-429a-a045-c68c7e775cb0" />
 
-*Uusi lisätty shiningsun.txt-tiedosto*
+*Uusi lisätty shiningsun.txt-tiedosto Githubissa*
 <br>
 
 ## c) Doh! --- "Tyhmä" muutos ja resetti
@@ -83,7 +83,7 @@ Tehtävänanto pyysi tekemään "tyhmän" muutoksen, joten käytin echo-komentoa
 *README.md -tiedoston päällekirjoitus "vahingossa" echo-komennolla*
 <br>
 
-Käytin  `git status` komentoa vielä tarkistaakseni että muutoksia oli tapahtunut, mutta ei stagettu eikä commitattu. Käytin sitten `git reset --hard` palaamaan takaisin aikaisempaan tallennettuun versioon, joka palautti vanhan tekstin README.md-tiedostoon.
+Käytin  `git status` komentoa vielä tarkistaakseni että muutoksia oli tapahtunut, mutta ei stagettu eikä commitattu. Käytin sitten `git reset --hard` palaamaan takaisin aikaisempaan tallennettuun commit-versioon, joka palautti vanhan tekstin README.md-tiedostoon. Huomiona että reset --hard poistaa kaikki muutokset, ja jos haluttaisiin palauttaa vain yksi tiedosto aikaisempaan commit-tilaan `git restore [tiedosto]` on siihen sopiva komento.
 
 <img width="956" height="363" alt="kuva" src="https://github.com/user-attachments/assets/29c30a48-c98f-403e-ad99-0a1c60f97c5a" />
 
