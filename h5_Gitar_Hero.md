@@ -38,6 +38,7 @@ Käytin komentoa `git commit -m "viesti"` committaamaan muutokset. Tämä ensimm
 
 <img width="1106" height="293" alt="kuva" src="https://github.com/user-attachments/assets/5553da9d-f1dc-454c-9ac0-6355f11bc3a3" />
 
+Lisäsin pyydetyt tiedot annetuilla komennoilla `git config --global user.name` \ `user.email`, jonka jälkeen tein commitin uudelleen.
 
 <img width="1104" height="131" alt="kuva" src="https://github.com/user-attachments/assets/7a3edc71-7967-4b3e-92fa-816fe73b0ee6" />
 
