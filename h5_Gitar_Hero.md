@@ -46,7 +46,11 @@ Lisäsin pyydetyt tiedot annetuilla komennoilla `git config --global user.name` 
 
 <img width="1104" height="131" alt="kuva" src="https://github.com/user-attachments/assets/7a3edc71-7967-4b3e-92fa-816fe73b0ee6" />
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Lähdeluettelo:
 
