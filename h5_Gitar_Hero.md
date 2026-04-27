@@ -57,7 +57,7 @@ Lisäsin pyydetyt tiedot annetuilla komennoilla `git config --global user.name` 
 *käyttäjäkonfiguraatio ja uusi commit*
 <br>
 
-Ensimmäisen kerran kun yritin viedä muutokset komennolla `git push`, kysyttiin github tunnuksia, koska en ollut tällä koneella vielä yhdistänyt SSH-avainta GitHubiini. Kävin viemässä public-avaimeni ~/.ssh/id_ed25519.pub -tiedostosta Githubin asetuksiin SSH and GPG keys, jonka jälkeen yritin pushia uudelleen. Tällä kertaa push onnistui ja tehdyt muutokset tulivat näkyviin githubissa.
+Ensimmäisen kerran kun yritin viedä muutokset komennolla `git push`, kysyttiin github tunnuksia, koska en ollut tällä koneella vielä yhdistänyt SSH-avainta GitHubiini. Peruin pushauksen ja kävin viemässä public-avaimeni ~/.ssh/id_ed25519.pub -tiedostosta Githubin asetuksiin SSH and GPG keys, jonka jälkeen yritin pushia uudelleen. Tällä kertaa push onnistui ilman tunnuksia ja tehdyt muutokset tulivat näkyviin githubissa.
 
 <img width="459" height="137" alt="kuva" src="https://github.com/user-attachments/assets/eedfb21e-2b29-4001-bc17-686d5cc5d505" />
 
@@ -74,6 +74,21 @@ Ensimmäisen kerran kun yritin viedä muutokset komennolla `git push`, kysyttiin
 *Uusi lisätty shiningsun.txt-tiedosto*
 <br>
 
+## c) Doh! --- "Tyhmä" muutos ja resetti
+
+Tehtävänanto pyysi tekemään "tyhmän" muutoksen, joten käytin echo-komentoa ylikirjoittamaan README.md-tiedoston tekstin uudella `echo "hups! > README.md`. Tuloksena kaikki aiempi README:ssä oleva teksti tuhoutui ja tilalla oli ainoastaan uusi teksti.
+
+<img width="639" height="79" alt="kuva" src="https://github.com/user-attachments/assets/76365655-1e3e-471f-baf1-eda935f5079b" />
+
+*README.md -tiedoston päällekirjoitus "vahingossa" echo-komennolla*
+<br>
+
+Käytin  `git status` komentoa vielä tarkistaakseni että muutoksia oli tapahtunut, mutta ei stagettu eikä commitattu. Käytin sitten `git reset --hard` palaamaan takaisin aikaisempaan tallennettuun versioon, joka palautti vanhan tekstin README.md-tiedostoon.
+
+<img width="956" height="363" alt="kuva" src="https://github.com/user-attachments/assets/29c30a48-c98f-403e-ad99-0a1c60f97c5a" />
+
+*git status ja reset*
+<br>
 
 
 
