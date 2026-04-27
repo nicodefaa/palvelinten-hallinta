@@ -13,6 +13,7 @@ Lähde: Chacon & Straub 2014.
 ## a) Online - GitHub varaston luonti
 
 Loin tehtävää varten uuden repon tänne githubiin ja nimesin sen "sunshine":ksi vaatimuksen mukaan.
+Pistin päälle option, joka loi README-tiedoston, sekä valitsin lisenssiksi GPL-3.0:n, joka myös loi repoon LICENSE-tiedoston.
 
 <img width="630" height="571" alt="kuva" src="https://github.com/user-attachments/assets/3a61d9a6-8c09-4605-8b70-0ce36d012d19" />
 
