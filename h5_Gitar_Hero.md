@@ -54,7 +54,7 @@ Lisäsin pyydetyt tiedot annetuilla komennoilla `git config --global user.name` 
 
 <img width="1104" height="131" alt="kuva" src="https://github.com/user-attachments/assets/7a3edc71-7967-4b3e-92fa-816fe73b0ee6" />
 
-*käyttäjäkonfiguraatio ja uusi commit*
+*käyttäjäkonfiguraatio (email peitetty) ja uusi commit*
 <br>
 
 Ensimmäisen kerran kun yritin viedä muutokset komennolla `git push`, kysyttiin github tunnuksia, koska en ollut tällä koneella vielä yhdistänyt SSH-avainta GitHubiini. Peruin pushauksen ja kävin viemässä public-avaimeni ~/.ssh/id_ed25519.pub -tiedostosta Githubin asetuksiin SSH and GPG keys, jonka jälkeen yritin pushia uudelleen. Tällä kertaa push onnistui ilman tunnuksia ja tehdyt muutokset tulivat näkyviin githubissa.
@@ -83,14 +83,21 @@ Tehtävänanto pyysi tekemään "tyhmän" muutoksen, joten käytin echo-komentoa
 *README.md -tiedoston päällekirjoitus "vahingossa" echo-komennolla*
 <br>
 
-Käytin  `git status` komentoa vielä tarkistaakseni että muutoksia oli tapahtunut, mutta ei stagettu eikä commitattu. Käytin sitten `git reset --hard` palaamaan takaisin aikaisempaan tallennettuun commit-versioon, joka palautti vanhan tekstin README.md-tiedostoon. Huomiona että reset --hard poistaa kaikki muutokset, ja jos haluttaisiin palauttaa vain yksi tiedosto aikaisempaan commit-tilaan `git restore [tiedosto]` on siihen sopiva komento.
+Käytin  `git status` komentoa vielä tarkistaakseni että muutoksia oli tapahtunut, mutta ei stagettu eikä commitattu. Käytin sitten `git reset --hard` palaamaan takaisin aikaisempaan tallennettuun commit-versioon, joka palautti vanhan tekstin README.md-tiedostoon. Huomiona että reset --hard poistaa kaikki muutokset, ja jos haluttaisiin palauttaa vain yksi tiedosto aikaisempaan commit-tilaan, `git restore [tiedosto]` on siihen sopiva komento.
 
 <img width="956" height="363" alt="kuva" src="https://github.com/user-attachments/assets/29c30a48-c98f-403e-ad99-0a1c60f97c5a" />
 
 *git status ja reset*
 <br>
 
+## d) Tukki --- Lokin tarkastelu
 
+Käytin komentoa ´git log´ näyttämään muutoslokin, jossa näkyi mm. kuka sen teki, aikaleima ja kommentit. Loki näyttää tapahtumat alhaalta ylöspäin kasvaen, eli uusimmat muutokset ovat ylimpänä. ´git show´ -komennolla sain vielä tarkemmin näkyviin mitä tiedostojen sisällä oli muutoksissa tehty. Tuloste näyttää vihreällä tekstillä "+..." mitä on lisätty ja mihin kohtaan.
+
+<img width="979" height="716" alt="kuva" src="https://github.com/user-attachments/assets/0ab944af-9137-42d2-9ebd-aed5cc0aa845" />
+
+*git log ja git show*
+<br>
 
 <br>
 <br>
