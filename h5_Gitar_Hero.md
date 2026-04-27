@@ -103,7 +103,7 @@ Käytin  `git status` komentoa vielä tarkistaakseni että muutoksia oli tapahtu
 
 ## d) Tukki --- Lokin tarkastelu
 
-Käytin komentoa `git log` näyttämään muutoslokin, jossa näkyi mm. kuka sen teki, aikaleima ja kommentit. Loki näyttää tapahtumat alhaalta ylöspäin kasvaen, eli uusimmat muutokset ovat ylimpänä. `git show` -komennolla sain vielä tarkemmin näkyviin mitä tiedostojen sisällä oli muutoksissa tehty. Tuloste näyttää vihreällä tekstillä "+..." mitä on lisätty ja mihin kohtaan.
+Käytin komentoa `git log` näyttämään muutoslokin, jossa näkyi mm. kuka sen teki, aikaleima ja kommentit. Loki näyttää tapahtumat alhaalta ylöspäin kasvaen, eli uusimmat muutokset ovat ylimpänä. `git show` -komennolla sain vielä tarkemmin näkyviin mitä tiedostojen sisällä oli muutoksissa tehty (näyttää vain viimeisimmästä commitista, `git log --patch` näyttää kaikista). Tuloste näyttää vihreällä tekstillä "+..." mitä on lisätty ja mihin kohtaan.
 
 <img width="979" height="716" alt="kuva" src="https://github.com/user-attachments/assets/0ab944af-9137-42d2-9ebd-aed5cc0aa845" />
 
