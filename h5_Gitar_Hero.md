@@ -12,6 +12,7 @@ Lähde: Chacon & Straub 2014.
 
 ## a) Online - GitHub varaston luonti
 
+<img width="630" height="571" alt="kuva" src="https://github.com/user-attachments/assets/3a61d9a6-8c09-4605-8b70-0ce36d012d19" />
 
 
 Lähdeluettelo:
