@@ -20,7 +20,9 @@ Pistin päälle option, joka loi repoon README-tiedoston, sekä valitsin lisenss
 
 ## b) Dolly --- Repon kloonaus ja testimuutoksia
 
-`testi`
+Kloonasin äsken tekemäni sunshine-repon käyttämällä komentoa `git clone [repon URL]`.
+
+Kloonauksen jälkeen kotihakemistoon tuli kansio "sunshine", ja sisältä löytyivät GitHubissakin näkyvät **LICENSE** ja **README.md**.
 
 <img width="1065" height="223" alt="kuva" src="https://github.com/user-attachments/assets/21e8c69a-f162-41a8-8ca9-1ac3b5dfd66a" />
 
